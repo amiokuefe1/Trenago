@@ -1,0 +1,178 @@
+// Declare variables of 10 different data types
+
+    var _fnum: Float = 20.7f
+    var _snum: Double = 762.3
+    var _tnum: Long = 500750
+    var _fonum: Int = 97251
+    var _finum: Short = 20572
+    var _sinum: Byte = 112
+    var _senum: Char = 's'
+    var _enum: Boolean = true
+    var _Nnum: String = "UAR"
+    var _Tenum = arrayOf(1,2,3,4)
+
+//5 Functions without Return Value.
+
+fun main() {
+    println("Hello, Tolu!!!")
+    hello()
+    age()
+    job()
+    country()
+
+    println(add())
+    println(subtract())
+    println(multiply())
+    println(divide())
+    println(mathe())
+
+    println(add2(694, 842))
+    println(subtract2(829, 320))
+    println(multiply2(9023, 239))
+    println(divide2(90284.948f, 294.87f))
+    println(mathe2(23904f, 4902f, 9503f))
+
+} // End of Main Function
+
+fun hello() {
+    print("My name is Efe. ")
+}
+
+fun age() {
+    print("I am in my late 20s, ")
+}
+
+fun job() {
+    print("soon, I will become an Android Developer. ")
+}
+
+fun country() {
+    print("last but not least, I'm from the United African Republic.")
+}
+
+//5 functions with return values
+
+fun add():Int {
+    var fnum:Int = 403;
+    var snum:Int = 538;
+    
+    return fnum + snum
+}
+
+fun subtract():Int {
+    var fnum:Int = 1923;
+    var snum:Int = 503;
+    
+    return fnum - snum
+}
+
+fun multiply():Int {
+    var fnum:Int = 403;
+    var snum:Int = 538;
+    
+    return fnum * snum
+}
+
+fun divide():Float {
+    var fnum:Float = 403868.03f;
+    var snum:Float = 538.32f;
+    
+    return fnum / snum
+}
+
+fun mathe():Float {
+    var fnum:Float = 403868.03f;
+    var snum:Float = 538.32f;
+    var tnum:Float = 2346.27f;
+    
+    return (fnum + snum)/tnum
+}
+
+//5 Functions which receive arguments
+
+fun add2(a:Int, b:Int):Int{
+    return a+b
+}
+
+fun subtract2(a:Int, b:Int):Int{
+    return a-b
+}
+
+fun multiply2(a:Int, b:Int):Int{
+    return a*b
+}
+
+fun divide2(a:Float, b:Float):Float{
+    return a/b
+}
+
+fun mathe2(a:Float, b:Float, c:Float):Float{
+    return (a/b)*c
+}
+
+Advantages of Agile
+
+1. Focuses on Users. 
+
+Agile uses user stories with business-focused acceptance criteria to determine product features, each of them delivers value. Also, this provides the opportunity to beta test software after each Sprint and the ability to make changes as needed.  
+
+2. Improves Quality. 
+
+The team focuses on high-quality development, testing, and collaboration by dividing the project into manageable units. By producing frequent builds and conducting testing and reviews during each iteration, quality is improved by finding and fixing bugs quickly and identifying expectation mismatches in the early stages of development.
+
+3. Transparency. 
+
+A unique opportunity for customers to be involved throughout the project process and monitor that the evolution is adopted at any phase of the process: from prioritizing features to iteration planning; from review sessions to frequent software builds within new features. On the other side, this requires customers to understand that they are seeing a work in progress in exchange for this added benefit of transparency.
+
+4. Early and Predictable Delivery.
+
+ A service, product or new features is delivered at a higher frequency with a strong level of predictability by using time-boxed and fixed schedule Sprints. This provides the opportunity to beta test the software earlier than it was scheduled if there is sufficient business value.   
+
+Predictable Costs and Schedule. The cost is limited regarding the amount of work team perform in fixed-schedule time because each Sprint is a fixed duration. Plus, the customer can more readily understand the approximate cost of each feature, in turn, it improves decision making about the priority of features and the importance of additional iterations. 
+
+5. Allows for Change. 
+
+An opportunity to continuously improve and reprioritize the overall product backlog. Teams make changes in order to improve the effectiveness and efficiency of work. New or changed items of the backlog can be planned for the next iteration within the opportunity to introduce changes.
+
+6. Stakeholder Engagement. 
+
+Stakeholders and developers work closely every day. All stakeholders and team members must remain motivated in order to achieve optimal project results. As a matter of fact, for stakeholder and team engagement Agile provides multiple opportunities before, during and after each Sprint. That is why there exists a high degree of collaboration between the customer and the whole project team, which provides more opportunities for the team to fully understand the customer’s vision. 
+
+7. Focuses on Business Value. 
+
+The team can deliver features, which provide the most business value based on understanding what is most important to the customer’s business. 
+
+
+8. Continuous improvement
+
+Working on self-reflection and striving for continuous improvement is one of the 12 core principles of the Agile manifesto. The methodology works in iterations which means that each sprint will be better than the last one and previous mistakes will not be repeated. Agile methodologies foster an open culture of idea exchange and collaboration which allows team members to learn from shared experiences and improve together.
+
+9. Improved team morale
+
+As Agile teams are self-organized and self-managing, they have increased autonomy and authority over their decisions. The project manager shields the team from interference from sponsors and management.
+
+The cross-functional nature of the teams also helps the members learn new project management skills and grow in their current roles. The team gets together frequently to discuss challenges and statuses letting them collaborate better. Since the team size is limited, Agile provides an environment where teams are close-knit and can have flexible team structures.
+
+10. Better control
+
+Agile allows managers to have better control over the project due to its transparency, feedback integration, and quality-control features. Quality is ensured throughout the implementation phase of the project and all stakeholders are involved in the process with daily progress reports through advanced reporting tools and techniques
+
+
+
+Disadvantages
+
+1. Limited Documentation.  
+Lack of attention to documentation can make it difficult for new team members to access needed information. In Agile, documentation happens throughout a project, and often “just in time” for building the output, not at the beginning. As a result, it becomes less detailed and often falls to the back burner.
+
+2. Poor Resource Planning. 
+Agile may not work as expected, for example, if a client is not clear about the goals, if the project manager or the team has no experience or if they do not “work well” under pressure. It is therefore recommended to do an adequate analysis in order to identify the best methodology to apply in every situation. The team needs to have a solid foundation and a comparable skill level. Because Agile is based on the idea that teams won’t know what their end result (or even a few cycles of delivery down the line) will look like from day one, it’s challenging to predict efforts like cost, time and resources required at the beginning of a project (and this challenge becomes more pronounced as projects get bigger and more complex).
+
+3. Fragmented Output.  
+There is a danger that the lack of project boundaries will lead to uncontrolled expansion, which can cause the project to never reach completion. Incremental delivery may help bring products to market faster, but it’s also a big disadvantage of Agile methodology. That’s because when teams work on each component in different cycles, the complete output often becomes very fragmented rather than one cohesive unit.
+
+4. 
+Difficult Measurement. Because the Agile methodology has less formal and more flexible processes, it may not always be easily included in larger and more traditional organizations. Since Agile delivers in increments, tracking progress requires you to look across cycles. That long-game makes measuring progress difficult.
+
+5. No Finite End. 
+Given that this methodology focuses mainly on the short term, the risk that the long-term vision will be lost does exist. It is difficult to accurately determine the amount of time and money that will be needed to complete the project due to constantly changing requirements. A high level of interaction between the client and the developers is required, which can take time and make the process difficult. The fact that Agile requires minimal planning at the beginning makes it easy to get sidetracked delivering new, unexpected functionality. Additionally, it means that projects have no finite end, as there is never a clear vision of what the “final product” looks like. 
+
